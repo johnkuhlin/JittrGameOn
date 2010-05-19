@@ -26,17 +26,19 @@ public class SaxFeedParser<LISTOBJECT> extends BaseFeedParser {
 	}
 	public ArrayList<LISTOBJECT> parse() throws GOWebServiceAPIException {
 		SAXParserFactory factory = SAXParserFactory.newInstance();
-		//javax.xml.parsers.SAXParser parser = factory.newSAXParser();
+		// JKL: move uncatch code into catch block
+		// javax.xml.parsers.SAXParser parser = factory.newSAXParser();
 		try {
+			javax.xml.parsers.SAXParser parser = factory.newSAXParser();
 			
 		    handler = (GOPublicGamesAPI) GameOnParserType.getGameOnParserType(handlerType);
 		    //parser.parse(stream, handler);
-		  //  javax.xml.parsers.SAXParser.parse(new InputStreamReader(), handler);
+		    parser.parse(this.getInputStream(), handler);
 		    //parser.parse(this.getInputStream(), handler);
 			return  handler.getList();
-	/*	} catch (UnknownHostException e) {
-		    throw new GOWebServiceAPIException(SaxFeedParser.TAG,e.getMessage());
-			throw new RuntimeException(e); */
+		} catch (UnknownHostException e) {
+			throw new GOWebServiceAPIException(SaxFeedParser.TAG,e.getMessage());
+			//throw new RuntimeException(e);
 		} catch (Exception e) {
 			throw new GOWebServiceAPIException(SaxFeedParser.TAG,e.getMessage());
 			

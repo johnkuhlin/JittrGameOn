@@ -12,9 +12,10 @@ public abstract class GameOnHandler<LISTOBJECT> extends DefaultHandler {
 	protected StringBuilder builder;
 	private ArrayList<LISTOBJECT> listOfObjects;
 	
-	public ArrayList<LISTOBJECT> getList() {
-		return this.listOfObjects;
-	}
+	// JKL: listOfObjects is not populated
+	// public ArrayList<LISTOBJECT> getList() {
+   	//	return this.listOfObjects;
+	// }
 	public void setStringBuilder(StringBuilder sb) {
 		this.builder = sb;
 	}

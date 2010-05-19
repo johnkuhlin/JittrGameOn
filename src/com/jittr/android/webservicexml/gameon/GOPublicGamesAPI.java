@@ -24,6 +24,11 @@ public final class GOPublicGamesAPI<LISTOBJECT> extends GameOnHandler {
 	    	//super<LISTOBJECT>();
 	}
 	
+	// JKL: temp method to return populated ArrayList
+	public ArrayList<LISTOBJECT> getList() {
+		return games;
+	}
+
 	@Override
 	public void endElement(String uri, String localName, String name)
 			throws SAXException {
@@ -52,7 +57,7 @@ public final class GOPublicGamesAPI<LISTOBJECT> extends GameOnHandler {
 			    currentGame.setHomeTeam(builder.toString());
 			}  else if (localName.equalsIgnoreCase("team2")) {
 				    currentGame.setVisitingTeam(builder.toString());
-    		} else if (localName.equalsIgnoreCase("game")) {
+    		} else if (localName.equalsIgnoreCase("publicgame")) {
 				games.add(currentGame);
 			}
 			builder.setLength(0);	
@@ -63,7 +68,7 @@ public final class GOPublicGamesAPI<LISTOBJECT> extends GameOnHandler {
 	public void startElement(String uri, String name, String localName,
 			Attributes attributes) throws SAXException {
 		super.startElement(uri, name, localName, attributes);
-		if (name.equalsIgnoreCase("game")) {
+		if (name.equalsIgnoreCase("publicgame")) {
 			this.currentGame = new Game();
 		}  //if
 	}  //startElement

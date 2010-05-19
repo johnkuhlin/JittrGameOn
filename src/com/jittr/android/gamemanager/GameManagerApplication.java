@@ -24,8 +24,7 @@ public class GameManagerApplication extends Application {
 	private ArrayList<Game> currentGames;
 	private ArrayList<Game> publicGames;
 	private GameUserSettings userSettings;
-//	private SaxFeedParser p;
-	
+
 	@Override
 	public void onCreate() {
 		super.onCreate();
@@ -202,7 +201,7 @@ public class GameManagerApplication extends Application {
  */
 	private void loadPublicGames(String sport) {
 		
-		String urlString = (sport != null) ? "http://jittr.com/jittr/gameon/go_getpublicgames.php?"+sport : "http://jittr.com/jittr/go_games.php ";
+		String urlString = (sport != null) ? "http://jittr.com/jittr/gameon/go_getpublicgames.php?"+sport : "http://jittr.com/jittr/gameon/go_getpublicgames.php ";
 		
 //		SaxFeedParser parser = new SaxFeedParser(GameOnAPIs.GO_PUBLIC_GAMES,urlString);
 		SaxFeedParser parser;
