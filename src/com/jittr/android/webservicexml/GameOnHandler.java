@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import com.jittr.android.gamemanager.games.Game;
+import com.jittr.android.gameon.games.Game;
 
 public abstract class GameOnHandler<LISTOBJECT> extends DefaultHandler {
 	
@@ -20,16 +20,9 @@ public abstract class GameOnHandler<LISTOBJECT> extends DefaultHandler {
 		this.builder = sb;
 	}
 	
-	@Override
 	public void characters(char[] ch, int start, int length)
 			throws SAXException {
 		super.characters(ch, start, length);
 		builder.append(ch, start, length);
-	}  //characters
-
-	@Override
-	public  void startDocument() throws SAXException {
-		super.startDocument();
 	}
-	   
-}  //class
+}

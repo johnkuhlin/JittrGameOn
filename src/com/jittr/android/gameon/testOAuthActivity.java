@@ -1,8 +1,5 @@
 package com.jittr.android.gameon;
 
-import com.jittr.android.gamemanager.R;
-import com.jittr.android.gameon.GameOnOAuth;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;

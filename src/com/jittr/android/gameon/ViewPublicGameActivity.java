@@ -1,16 +1,14 @@
 package com.jittr.android.gameon;
 
-import static com.jittr.android.gameon.ViewPublicGameActivity.CUSTOMIZE_GAME;
-
-import com.jittr.android.gamemanager.R;
-import com.jittr.android.gamemanager.adapters.GameListAdapter;
-import com.jittr.android.gamemanager.games.Game;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+
+import com.jittr.android.gameon.adapters.GameListAdapter;
+import com.jittr.android.gameon.games.Game;
 
 public class ViewPublicGameActivity extends ListActivity {
 	public static final String PUBLIC_GAME_RESULT = "public_name";

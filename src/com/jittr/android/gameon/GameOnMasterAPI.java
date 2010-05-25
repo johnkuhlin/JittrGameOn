@@ -20,7 +20,7 @@ import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicHttpResponse;
 
-import com.jittr.android.gamemanager.games.Game;
+import com.jittr.android.gameon.games.Game;
 
 public class GameOnMasterAPI {
 

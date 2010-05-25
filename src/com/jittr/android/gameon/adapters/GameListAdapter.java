@@ -1,4 +1,4 @@
-package com.jittr.android.gamemanager.adapters;
+package com.jittr.android.gameon.adapters;
 
 import java.util.ArrayList;
 
@@ -7,10 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.jittr.android.gamemanager.R;
-import com.jittr.android.gamemanager.games.Game;
-//import com.jittr.android.gamemanager.
-import com.jittr.android.gamemanager.views.GameListItem;
+import com.jittr.android.gameon.R;
+import com.jittr.android.gameon.games.Game;
+import com.jittr.android.gameon.views.GameListItem;
 
 public class GameListAdapter extends BaseAdapter {
 	

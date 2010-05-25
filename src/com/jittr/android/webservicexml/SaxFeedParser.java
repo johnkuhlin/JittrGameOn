@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import com.jittr.android.gamemanager.games.Game;
+import com.jittr.android.gameon.games.Game;
 import com.jittr.android.webservicexml.BaseFeedParser;
 import com.jittr.android.webservicexml.GameOnAPIs;
 import com.jittr.android.webservicexml.GameOnParserType;

@@ -1,6 +1,6 @@
-package com.jittr.android.gamemanager.views;
+package com.jittr.android.gameon.views;
 
-import com.jittr.android.gamemanager.games.Game;
+import com.jittr.android.gameon.games.Game;
 
 import android.content.Context;
 import android.util.AttributeSet;

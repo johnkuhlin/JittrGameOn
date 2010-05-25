@@ -7,9 +7,6 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
-import com.jittr.android.gamemanager.R;
-import com.jittr.android.gameon.GameOnActivity;
-
 public class UpdateUserSettingsActivity extends GameOnActivity {
 
 	private EditText twitterEditText;

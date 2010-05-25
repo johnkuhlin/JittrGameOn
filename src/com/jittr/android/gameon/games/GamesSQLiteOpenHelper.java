@@ -1,4 +1,4 @@
-package com.jittr.android.gamemanager.games;
+package com.jittr.android.gameon.games;
 
 import android.content.ContentValues;
 import android.content.Context;

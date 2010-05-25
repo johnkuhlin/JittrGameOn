@@ -1,18 +1,5 @@
-package com.jittr.android.gameon.activities;
+package com.jittr.android.gameon;
 
-import com.jittr.android.gamemanager.R;
-import com.jittr.android.gamemanager.R.id;
-import com.jittr.android.gamemanager.R.menu;
-import com.jittr.android.gamemanager.adapters.GameListAdapter;
-import com.jittr.android.gamemanager.games.Game;
-import com.jittr.android.gameon.AddGameActivity;
-import com.jittr.android.gameon.GameManagerApplication;
-import com.jittr.android.gameon.UpdateUserSettingsActivity;
-import com.jittr.android.gameon.testOAuthActivity;
-import com.jittr.android.gameon.testTwitterStatusUpdateActivity;
-//import com.jittr.android.taskmanager.R;
-
-import android.R.layout;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,6 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+
+import com.jittr.android.gameon.adapters.GameListAdapter;
+import com.jittr.android.gameon.games.Game;
 
 public class MainViewActivity extends ListActivity {
 

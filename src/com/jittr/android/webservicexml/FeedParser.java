@@ -4,7 +4,7 @@ import java.util.List;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.jittr.android.gamemanager.games.Game;
+import com.jittr.android.gameon.games.Game;
 
 /* interface for parsing XML over HTTP webservices for GameOn
  * TODO - eliminate the compile time dependency on a specific object , in this case

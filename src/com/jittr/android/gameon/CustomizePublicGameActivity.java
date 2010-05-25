@@ -1,9 +1,5 @@
 package com.jittr.android.gameon;
 
-import com.jittr.android.gamemanager.R;
-import com.jittr.android.gamemanager.games.Game;
-import com.jittr.android.gameon.GameUserSettings;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +9,8 @@ import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+import com.jittr.android.gameon.games.Game;
 
 public class CustomizePublicGameActivity extends Activity {
 	public static final String CUSTOMIZE_GAME = "customize_game";

@@ -1,14 +1,13 @@
 package com.jittr.android.gameon;
 
+import static com.jittr.android.gameon.GameManagerApplication.appContext;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import com.jittr.android.gamemanager.R;
-
 import android.content.res.Resources;
 import android.content.res.Resources.NotFoundException;
-import static com.jittr.android.gameon.GameManagerApplication.appContext;
 public class GameOnProperties  {
 
 	private Properties properties;

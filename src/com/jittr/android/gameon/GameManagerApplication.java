@@ -1,5 +1,8 @@
 package com.jittr.android.gameon;
 
+import static com.jittr.android.gameon.GameOnGlobalConstants.GAMEON_API_SUCCESS;
+import static com.jittr.android.gameon.games.GamesSQLiteOpenHelper.SQLITE_INSERT_ERROR;
+
 import java.util.ArrayList;
 
 import android.app.Application;
@@ -7,14 +10,11 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import com.jittr.android.gamemanager.games.Game;
-import static com.jittr.android.gamemanager.games.GamesSQLiteOpenHelper.*;
-import static com.jittr.android.gameon.GameOnGlobalConstants.*;
 
-import com.jittr.android.gamemanager.games.GamesSQLiteOpenHelper;
-//import com.jittr.android.webservicexml.foursquare.SaxFeedParser;
+import com.jittr.android.gameon.games.Game;
+import com.jittr.android.gameon.games.GamesSQLiteOpenHelper;
 import com.jittr.android.webservicexml.GOWebServiceAPIException;
-import  com.jittr.android.webservicexml.GameOnAPIs;
+import com.jittr.android.webservicexml.GameOnAPIs;
 import com.jittr.android.webservicexml.SaxFeedParser;
 
 public class GameManagerApplication extends Application {
