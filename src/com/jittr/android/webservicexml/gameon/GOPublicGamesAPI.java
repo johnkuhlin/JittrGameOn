@@ -1,9 +1,5 @@
 package com.jittr.android.webservicexml.gameon;
 
-import java.util.ArrayList;
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-
 import com.jittr.android.gamemanager.games.Game;
 import com.jittr.android.webservicexml.GameOnHandler;
 

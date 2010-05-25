@@ -1,5 +1,13 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon.activities;
 
+import com.jittr.android.gamemanager.AddGameActivity;
+import com.jittr.android.gamemanager.GameManagerApplication;
+import com.jittr.android.gamemanager.R;
+import com.jittr.android.gamemanager.UpdateUserSettingsActivity;
+import com.jittr.android.gamemanager.testOAuthActivity;
+import com.jittr.android.gamemanager.testTwitterStatusUpdateActivity;
+import com.jittr.android.gamemanager.R.id;
+import com.jittr.android.gamemanager.R.menu;
 import com.jittr.android.gamemanager.adapters.GameListAdapter;
 import com.jittr.android.gamemanager.games.Game;
 //import com.jittr.android.taskmanager.R;
@@ -15,7 +23,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 
-public class ViewGamesActivity extends ListActivity {
+public class MainViewActivity extends ListActivity {
 
 	private Button addButton;
 	private GameListAdapter adapter;
@@ -44,15 +52,15 @@ public class ViewGamesActivity extends ListActivity {
 	
 		Intent intent;
 		if (item.getItemId() == R.id.update_user_settings) {
-		    intent = new Intent(ViewGamesActivity.this,UpdateUserSettingsActivity.class);
+		    intent = new Intent(MainViewActivity.this,UpdateUserSettingsActivity.class);
 		    startActivity(intent);
 		    return true;
 		} else if (item.getItemId() == R.id.testOAuth) {
-		    intent = new Intent(ViewGamesActivity.this,testOAuthActivity.class);
+		    intent = new Intent(MainViewActivity.this,testOAuthActivity.class);
 		    startActivity(intent);
 		    return true;	
 		} else if (item.getItemId() ==R.id.testTwitterStatus) {
-		    intent = new Intent(ViewGamesActivity.this,testTwitterStatusUpdateActivity.class);
+		    intent = new Intent(MainViewActivity.this,testTwitterStatusUpdateActivity.class);
 		    startActivity(intent);
 	         return true;
 		}
@@ -85,7 +93,7 @@ public class ViewGamesActivity extends ListActivity {
 		
 		addButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				Intent intent = new Intent(ViewGamesActivity.this, AddGameActivity.class);
+				Intent intent = new Intent(MainViewActivity.this, AddGameActivity.class);
 				startActivity(intent);
 			}
 		});
