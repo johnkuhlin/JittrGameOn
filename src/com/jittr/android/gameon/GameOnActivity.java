@@ -1,4 +1,4 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon;
 
 import android.app.Activity;
 

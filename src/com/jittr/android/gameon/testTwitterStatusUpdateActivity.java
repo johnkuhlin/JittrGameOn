@@ -1,4 +1,4 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon;
 
 import java.sql.Date;
 
@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.jittr.android.gamemanager.GameOnOAuth;
+import com.jittr.android.gamemanager.R;
+import com.jittr.android.gameon.GameOnOAuth;
 import com.jittr.android.webservice.TwitterAPIs;
 
 public class testTwitterStatusUpdateActivity extends GameOnActivity {

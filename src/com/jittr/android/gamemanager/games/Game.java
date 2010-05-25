@@ -5,7 +5,7 @@ package com.jittr.android.gamemanager.games;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.jittr.android.gamemanager.baseTablePojo;
+import com.jittr.android.gameon.baseTablePojo;
 
 /* Standardize field names throughout including from XML dtd */
 /* id = id,

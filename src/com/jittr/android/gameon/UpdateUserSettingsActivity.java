@@ -1,4 +1,4 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon;
 
 //import Activity;
 import android.os.Bundle;
@@ -6,7 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import com.jittr.android.gamemanager.GameOnActivity;
+
+import com.jittr.android.gamemanager.R;
+import com.jittr.android.gameon.GameOnActivity;
 
 public class UpdateUserSettingsActivity extends GameOnActivity {
 

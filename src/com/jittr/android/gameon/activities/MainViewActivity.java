@@ -1,15 +1,15 @@
 package com.jittr.android.gameon.activities;
 
-import com.jittr.android.gamemanager.AddGameActivity;
-import com.jittr.android.gamemanager.GameManagerApplication;
 import com.jittr.android.gamemanager.R;
-import com.jittr.android.gamemanager.UpdateUserSettingsActivity;
-import com.jittr.android.gamemanager.testOAuthActivity;
-import com.jittr.android.gamemanager.testTwitterStatusUpdateActivity;
 import com.jittr.android.gamemanager.R.id;
 import com.jittr.android.gamemanager.R.menu;
 import com.jittr.android.gamemanager.adapters.GameListAdapter;
 import com.jittr.android.gamemanager.games.Game;
+import com.jittr.android.gameon.AddGameActivity;
+import com.jittr.android.gameon.GameManagerApplication;
+import com.jittr.android.gameon.UpdateUserSettingsActivity;
+import com.jittr.android.gameon.testOAuthActivity;
+import com.jittr.android.gameon.testTwitterStatusUpdateActivity;
 //import com.jittr.android.taskmanager.R;
 
 import android.R.layout;

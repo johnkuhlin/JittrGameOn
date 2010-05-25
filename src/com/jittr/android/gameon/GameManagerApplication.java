@@ -1,4 +1,4 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon;
 
 import java.util.ArrayList;
 
@@ -7,9 +7,10 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import static com.jittr.android.gamemanager.GameOnGlobalConstants.*;
 import com.jittr.android.gamemanager.games.Game;
 import static com.jittr.android.gamemanager.games.GamesSQLiteOpenHelper.*;
+import static com.jittr.android.gameon.GameOnGlobalConstants.*;
+
 import com.jittr.android.gamemanager.games.GamesSQLiteOpenHelper;
 //import com.jittr.android.webservicexml.foursquare.SaxFeedParser;
 import com.jittr.android.webservicexml.GOWebServiceAPIException;

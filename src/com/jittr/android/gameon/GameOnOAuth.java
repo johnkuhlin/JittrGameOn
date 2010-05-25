@@ -1,4 +1,4 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,8 +8,9 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import com.jittr.android.gamemanager.GameManagerApplication;
-import com.jittr.android.gamemanager.GameUserSettings;
+import com.jittr.android.gameon.GameManagerApplication;
+import com.jittr.android.gameon.GameUserSettings;
+
 import android.content.Intent;
 import android.net.Uri;
 import oauth.signpost.*;

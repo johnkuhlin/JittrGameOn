@@ -1,6 +1,7 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon;
 
-import static com.jittr.android.gamemanager.GameOnGlobalConstants.*;
+import static com.jittr.android.gameon.GameOnGlobalConstants.*;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

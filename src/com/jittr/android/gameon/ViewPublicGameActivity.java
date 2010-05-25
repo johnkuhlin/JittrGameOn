@@ -1,7 +1,8 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon;
 
-import static com.jittr.android.gamemanager.ViewPublicGameActivity.CUSTOMIZE_GAME;
+import static com.jittr.android.gameon.ViewPublicGameActivity.CUSTOMIZE_GAME;
 
+import com.jittr.android.gamemanager.R;
 import com.jittr.android.gamemanager.adapters.GameListAdapter;
 import com.jittr.android.gamemanager.games.Game;
 import android.app.ListActivity;

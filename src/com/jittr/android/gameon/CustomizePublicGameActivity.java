@@ -1,8 +1,9 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon;
 
 import com.jittr.android.gamemanager.R;
 import com.jittr.android.gamemanager.games.Game;
-import com.jittr.android.gamemanager.GameUserSettings;
+import com.jittr.android.gameon.GameUserSettings;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

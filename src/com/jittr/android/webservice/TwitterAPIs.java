@@ -6,8 +6,9 @@ import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 import twitter4j.http.AccessToken;
 
-import static com.jittr.android.gamemanager.GameOnOAuth.*;
-import com.jittr.android.gamemanager.GameOnProperties;
+import static com.jittr.android.gameon.GameOnOAuth.*;
+
+import com.jittr.android.gameon.GameOnProperties;
 
 public class TwitterAPIs {
 	private String consumerKey, consumerSecret;

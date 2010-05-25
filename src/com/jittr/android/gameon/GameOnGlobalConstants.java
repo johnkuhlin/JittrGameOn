@@ -1,4 +1,4 @@
-package com.jittr.android.gamemanager;
+package com.jittr.android.gameon;
 
 public final class GameOnGlobalConstants {
 	public static final long GAMEON_API_SUCCESS = 1;
